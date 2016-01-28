@@ -1,0 +1,4 @@
+name: InventoryAPI
+main: com.megacraft.megacraftapi.MegaCraftAPI
+author: MegaCraft
+version: 0.1
