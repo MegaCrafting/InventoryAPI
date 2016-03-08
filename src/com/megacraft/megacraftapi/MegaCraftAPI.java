@@ -22,7 +22,7 @@ public class MegaCraftAPI extends JavaPlugin {
     	MegaCraftAPI.menuRegistry = new MenuRegistry();
     	MegaCraftAPI.plugin.getServer().getPluginManager().registerEvents((Listener)new MenuActions(), (Plugin)this);
     	MegaCraftAPI.plugin.getServer().getPluginManager().registerEvents((Listener)new MenuCloseAction(), (Plugin)this);
-        Bukkit.getConsoleSender().sendMessage("Initializing " + ChatColor.BLUE + ChatColor.BOLD + "Colonel" + ChatColor.DARK_AQUA + "Hedgehog" + ChatColor.RESET + "'s " + ChatColor.YELLOW + "MenuAPI. All libraries loaded." + ChatColor.RESET);
+        Bukkit.getConsoleSender().sendMessage("Initializing " + ChatColor.DARK_AQUA + ChatColor.BOLD + "MegaCraft" + ChatColor.RESET + "'s " + ChatColor.YELLOW + "InventoryAPI. All libraries loaded." + ChatColor.RESET);
     }
     
     public void onDisable() {
